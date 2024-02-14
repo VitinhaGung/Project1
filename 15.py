@@ -1,3 +1,4 @@
 import random
-number = random.randint(0,100)
-print(number)
+
+def gen_number(a,b):
+    return random.randint(a,b)
